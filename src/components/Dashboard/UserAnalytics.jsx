@@ -5,10 +5,10 @@ import TimeOnSite from "./TimeOnSite";
 const UserAnalytics = () => {
   return (
     <div className="flex space-x-10 mt-10">
-      <div className="w-4/6 max-h-[500px]  shadow-md p-5 rounded-lg">
+      <div className="w-4/6 max-h-[500px]  shadow-md p-5 rounded-lg bg-white">
         <BarChart></BarChart>
       </div>
-      <div className="w-2/6 max-h-[500px] ">
+      <div className="w-2/6 max-h-[500px] bg-white">
         <TimeOnSite></TimeOnSite>
       </div>
     </div>
