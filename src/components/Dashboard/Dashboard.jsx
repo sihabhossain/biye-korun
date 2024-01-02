@@ -1,6 +1,7 @@
 import React from "react";
-import { TopBar } from "./TopBar";
+import { TopBar } from "../TopBar";
 import TotalStats from "./TotalStats";
+import UserAnalytics from "./UserAnalytics";
 
 const Dashboard = () => {
   return (
@@ -10,6 +11,9 @@ const Dashboard = () => {
 
       {/* Total stats */}
       <TotalStats></TotalStats>
+
+      {/* User analytis */}
+      <UserAnalytics></UserAnalytics>
     </div>
   );
 };

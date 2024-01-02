@@ -1,10 +1,10 @@
 import React from "react";
-import statShadow from "../assets/statsShadow.png";
+import statShadow from "../../assets/statsShadow.png";
 
 export const SingleStat = ({ totalUsers, title, percentage, total, bg }) => {
   return (
     <div
-      className={`bg-${bg} p-5 rounded-md`}
+      className={`${bg} p-5 rounded-md`}
       style={{ backgroundImage: `url(${statShadow})` }}
     >
       <div className=" flex items-center justify-between">

@@ -1,10 +1,10 @@
 import React from "react";
+import totalUsers from "../../assets/totalUsers.png";
+import totalMale from "../../assets/totalMale.png";
+import totalFemale from "../../assets/totalFemale.png";
+import newVisitor from "../../assets/newVisitor.png";
+import percentage from "../../assets/userPercentage.png";
 import { SingleStat } from "./SingleStat";
-import totalUsers from "../assets/totalUsers.png";
-import totalMale from "../assets/totalMale.png";
-import totalFemale from "../assets/totalFemale.png";
-import newVisitor from "../assets/newVisitor.png";
-import percentage from "../assets/userPercentage.png";
 
 const Stats = [
   {
@@ -44,29 +44,29 @@ const TotalStats = () => {
         title={"Total Users"}
         total={345623}
         percentage={percentage}
-        bg={"teal-400"}
+        bg={"bg-teal-500"}
         totalUsers={totalUsers}
       ></SingleStat>
       <SingleStat
         title={"Total Male"}
         total={245623}
         percentage={percentage}
-        bg={"orange-500"}
-        totalUsers={totalUsers}
+        bg={"bg-orange-500"}
+        totalUsers={totalMale}
       ></SingleStat>
       <SingleStat
         title={"Total Female  "}
         total={545623}
         percentage={percentage}
-        bg={"purple-400"}
-        totalUsers={totalUsers}
+        bg={"bg-purple-500"}
+        totalUsers={totalFemale}
       ></SingleStat>
       <SingleStat
         title={"New Visitor"}
         total={45623}
         percentage={percentage}
-        bg={"blue-500"}
-        totalUsers={totalUsers}
+        bg={"bg-blue-500"}
+        totalUsers={newVisitor}
       ></SingleStat>
     </div>
   );

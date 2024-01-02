@@ -3,9 +3,10 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Dashboard from "./components/Dashboard.jsx";
-import Users from "./components/Users.jsx";
-import Chat from "./components/Chat.jsx";
+import Dashboard from "./components/Dashboard/Dashboard.jsx";
+import Users from "./components/Users/Users.jsx";
+import Chat from "./components/Chat/Chat.jsx";
+
 
 const router = createBrowserRouter([
   {
