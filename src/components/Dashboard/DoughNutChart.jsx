@@ -32,9 +32,9 @@ const options = {
 function DoughNutChart() {
   return (
     <>
-      <h2 className="text-2xl font-semibold border-b-2 pb-2">Users</h2>
+      <h2 className="text-2xl font-semibold border-b-2 pb-5">Users</h2>
       <div className="mt-5">
-        <Doughnut data={data} options={options} width={300} height={200} />
+        <Doughnut data={data} options={options} />
       </div>
     </>
   );
