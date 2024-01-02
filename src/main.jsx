@@ -5,8 +5,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Dashboard from "./components/Dashboard/Dashboard.jsx";
 import Users from "./components/Users/Users.jsx";
-import Chat from "./components/Chat/Chat.jsx";
-
+import Package from "./components/Package/Package.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,18 +17,18 @@ const router = createBrowserRouter([
         element: <Dashboard></Dashboard>,
       },
       {
-        path: '/dashboard',
-        element: <Dashboard></Dashboard>
+        path: "/dashboard",
+        element: <Dashboard></Dashboard>,
       },
       {
-        path: '/users',
-        element: <Users></Users>
+        path: "/users",
+        element: <Users></Users>,
       },
       {
-        path: '/chat',
-        element: <Chat></Chat>
+        path: "/package",
+        element: <Package></Package>,
       },
-    ]
+    ],
   },
 ]);
 

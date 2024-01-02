@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
-import { LayoutDashboard, Users, MessageCircle } from "lucide-react";
+import { LayoutDashboard, Users, Box } from "lucide-react";
 
 const navLinks = [
   {
@@ -15,9 +15,9 @@ const navLinks = [
     path: "/users",
   },
   {
-    name: "Chat",
-    icon: MessageCircle,
-    path: "/chat",
+    name: "Package",
+    icon: Box,
+    path: "/package",
   },
 ];
 
