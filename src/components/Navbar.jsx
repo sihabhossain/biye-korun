@@ -25,7 +25,7 @@ function Navbar() {
   const [activeNavIndex, setActiveNavIndex] = useState(0);
 
   return (
-    <div className="px-10 py-12 flex-col w-1/6 h-full shadow-md rounded-lg">
+    <div className="px-10 h-[950px] max-h-screen py-12 flex-col w-1/6 shadow-md rounded-lg">
       {/* Logo */}
       <div className="w-full border-b-2 pb-7">
         <img src={logo} alt="" />

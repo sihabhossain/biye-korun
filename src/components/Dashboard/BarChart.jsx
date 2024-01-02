@@ -21,30 +21,30 @@ ChartJS.register(
 );
 
 export const options = {
-  responsive: true,
   plugins: {
     legend: {
       position: "top",
     },
     title: {
       display: true,
+      text: "User Analytics",
     },
   },
 };
 
 const labels = [
-  "January",
-  "February",
-  "March",
-  "April",
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
   "May",
-  "June",
-  "July",
-  "August",
-  "September",
-  "October",
-  "November",
-  "December",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
 ];
 
 export const data = {
@@ -64,5 +64,9 @@ export const data = {
 };
 
 export function BarChart() {
-  return <Bar options={options} data={data} />;
+  return (
+    <>
+      <Bar options={options} data={data} />
+    </>
+  );
 }
