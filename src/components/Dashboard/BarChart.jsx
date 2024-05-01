@@ -43,8 +43,6 @@ const labels = [
   "Aug",
   "Sep",
   "Oct",
-  "Nov",
-  "Dec",
 ];
 
 export const data = {
